@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx @svgr/cli --template 1.js . -d dist/"
+    "start": "npx @svgr/cli --no-svgo --template src/template/1.js src/image/ -d dist/"
   },
   "author": "",
   "license": "ISC",

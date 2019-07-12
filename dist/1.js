@@ -1,6 +1,6 @@
 <svg {...props}>
-  <text transform="translate(1 1)" data-id="ww" datatype="ww">
-    {"+"}
-  </text>
+  <g id="ww" className="ww" data-id="ww" datatype="ww">
+    <text transform="matrix(1 0 0 1 1 1)">{"+"}</text>
+  </g>
 </svg>;
 export default Svg1;
