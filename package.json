@@ -1,0 +1,15 @@
+{
+  "name": "svgo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx @svgr/cli --template 1.js . -d dist/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@svgr/cli": "^4.3.1"
+  }
+}
